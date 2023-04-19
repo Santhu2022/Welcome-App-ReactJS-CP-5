@@ -1,0 +1,41 @@
+.app-container {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.heading {
+  color: #f0bb03;
+  font-family: 'bree serif';
+}
+
+.greeting {
+  color: #ffffff;
+  font-family: 'bree serif';
+  margin-top: 0;
+}
+.button-container {
+}
+.button {
+  background-color: #ffffff;
+  color: black;
+  padding: 8px 18px 8px 18px;
+  border-radius: 10px;
+  font-family: 'bree serif';
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .greeting {
+    font-size: 20px;
+  }
+}
